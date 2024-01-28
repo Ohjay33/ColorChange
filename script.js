@@ -12,6 +12,8 @@ function colorchange() {
 // $("#button").on("click", function () {
 //     $('body').css('background', randomColor());
 // });
+
+
  
 function setBg () {
     var randomColor = Math.floor(Math.random()*16777215).toString(16);
@@ -19,6 +21,11 @@ function setBg () {
     console.log("Done! You did it!!!");
     // color.innerHTML = "#" + randomColor;
 }
+
+
+
+
+
 
 
 
