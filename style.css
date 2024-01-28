@@ -1,12 +1,23 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 200px;
+    /* height: 200px; */
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "Rubik Burned";
+    /* color: blue; */
 }
 
 .buttonContainer{
     display: flex;
     justify-content: center;
+    height: 500px;
+    width: 70%;
+    /* background-color: brown; */
     /* margin-top: 50px; */
     /* align-items: center; */
 }
@@ -15,12 +26,14 @@ body{
     color: black;
     align-items: center;
     background-color: gray;
-    /* height: 88px; */
-    /* width: 193px; */
-    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+    border-radius: 25%;
     font-size: 50px;
-    box-shadow: 10px;
+    box-shadow: 5px 5px;
     border-top: 2px solid black;
     padding: 30px 30px;
     /* margin-top: 80px; */
+    margin-top: 150px;
+    font-family: "Permanent Marker";
 }
